@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63143B431E6B73810063D8B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63143B421E6B73810063D8B1 /* GoogleService-Info.plist */; };
 		6391DF991E69854F0039EAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DF981E69854F0039EAEC /* AppDelegate.swift */; };
-		6391DF9B1E69854F0039EAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DF9A1E69854F0039EAEC /* ViewController.swift */; };
 		6391DF9E1E69854F0039EAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391DF9C1E69854F0039EAEC /* Main.storyboard */; };
 		6391DFA01E69854F0039EAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6391DF9F1E69854F0039EAEC /* Assets.xcassets */; };
 		6391DFA31E69854F0039EAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6391DFA11E69854F0039EAEC /* LaunchScreen.storyboard */; };
+		6391DFAE1E69ACAD0039EAEC /* MessegesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DFAD1E69ACAD0039EAEC /* MessegesController.swift */; };
+		6391DFB31E69ADBD0039EAEC /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DFB21E69ADBD0039EAEC /* LoginRegisterViewController.swift */; };
+		6391DFB51E69BDB40039EAEC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DFB41E69BDB40039EAEC /* LoginView.swift */; };
+		6391DFB71E69BE630039EAEC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DFB61E69BE630039EAEC /* RegisterView.swift */; };
+		6391DFB91E69BEED0039EAEC /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6391DFB81E69BEED0039EAEC /* IntroView.swift */; };
+		EB4409B4E068B5D05F15030B /* Pods_LOLChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1218BB6A8EF17FD2A17FEE2F /* Pods_LOLChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1218BB6A8EF17FD2A17FEE2F /* Pods_LOLChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LOLChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2275A23763147764D96D2BA4 /* Pods-LOLChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOLChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-LOLChat/Pods-LOLChat.release.xcconfig"; sourceTree = "<group>"; };
+		63143B421E6B73810063D8B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6391DF951E69854E0039EAEC /* LOLChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LOLChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6391DF981E69854F0039EAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6391DF9A1E69854F0039EAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6391DF9D1E69854F0039EAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6391DF9F1E69854F0039EAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6391DFA21E69854F0039EAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6391DFA41E6985500039EAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6391DFAD1E69ACAD0039EAEC /* MessegesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessegesController.swift; sourceTree = "<group>"; };
+		6391DFB21E69ADBD0039EAEC /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
+		6391DFB41E69BDB40039EAEC /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6391DFB61E69BE630039EAEC /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		6391DFB81E69BEED0039EAEC /* IntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		972A1229D2FA0A2DCCDC3D96 /* Pods-LOLChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LOLChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LOLChat/Pods-LOLChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4409B4E068B5D05F15030B /* Pods_LOLChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E7696A4EE48FCB3E3F10C4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1218BB6A8EF17FD2A17FEE2F /* Pods_LOLChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60A105C11432FAB91E570B40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972A1229D2FA0A2DCCDC3D96 /* Pods-LOLChat.debug.xcconfig */,
+				2275A23763147764D96D2BA4 /* Pods-LOLChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6391DF8C1E69854E0039EAEC = {
 			isa = PBXGroup;
 			children = (
 				6391DF971E69854E0039EAEC /* LOLChat */,
 				6391DF961E69854E0039EAEC /* Products */,
+				60A105C11432FAB91E570B40 /* Pods */,
+				4E7696A4EE48FCB3E3F10C4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +89,50 @@
 			isa = PBXGroup;
 			children = (
 				6391DF981E69854F0039EAEC /* AppDelegate.swift */,
-				6391DF9A1E69854F0039EAEC /* ViewController.swift */,
+				6391DFB11E69AD8E0039EAEC /* Helper Files */,
+				6391DFB01E69AD720039EAEC /* Model */,
+				6391DFAC1E69AC5A0039EAEC /* Views */,
+				6391DFAF1E69AD370039EAEC /* Controllers */,
 				6391DF9C1E69854F0039EAEC /* Main.storyboard */,
 				6391DF9F1E69854F0039EAEC /* Assets.xcassets */,
 				6391DFA11E69854F0039EAEC /* LaunchScreen.storyboard */,
+				63143B421E6B73810063D8B1 /* GoogleService-Info.plist */,
 				6391DFA41E6985500039EAEC /* Info.plist */,
 			);
 			path = LOLChat;
+			sourceTree = "<group>";
+		};
+		6391DFAC1E69AC5A0039EAEC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6391DFB41E69BDB40039EAEC /* LoginView.swift */,
+				6391DFB81E69BEED0039EAEC /* IntroView.swift */,
+				6391DFB61E69BE630039EAEC /* RegisterView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6391DFAF1E69AD370039EAEC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6391DFB21E69ADBD0039EAEC /* LoginRegisterViewController.swift */,
+				6391DFAD1E69ACAD0039EAEC /* MessegesController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6391DFB01E69AD720039EAEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6391DFB11E69AD8E0039EAEC /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Helper Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6391DFA71E6985500039EAEC /* Build configuration list for PBXNativeTarget "LOLChat" */;
 			buildPhases = (
+				A0B01B5C1CD9CD0C15A33E12 /* [CP] Check Pods Manifest.lock */,
 				6391DF911E69854E0039EAEC /* Sources */,
 				6391DF921E69854E0039EAEC /* Frameworks */,
 				6391DF931E69854E0039EAEC /* Resources */,
+				5947B14438DD503041660C02 /* [CP] Embed Pods Frameworks */,
+				2712DF40E275C20D019CADBB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6391DFA31E69854F0039EAEC /* LaunchScreen.storyboard in Resources */,
+				63143B431E6B73810063D8B1 /* GoogleService-Info.plist in Resources */,
 				6391DFA01E69854F0039EAEC /* Assets.xcassets in Resources */,
 				6391DF9E1E69854F0039EAEC /* Main.storyboard in Resources */,
 			);
@@ -132,13 +207,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2712DF40E275C20D019CADBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOLChat/Pods-LOLChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5947B14438DD503041660C02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LOLChat/Pods-LOLChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B01B5C1CD9CD0C15A33E12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6391DF911E69854E0039EAEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6391DF9B1E69854F0039EAEC /* ViewController.swift in Sources */,
+				6391DFAE1E69ACAD0039EAEC /* MessegesController.swift in Sources */,
 				6391DF991E69854F0039EAEC /* AppDelegate.swift in Sources */,
+				6391DFB31E69ADBD0039EAEC /* LoginRegisterViewController.swift in Sources */,
+				6391DFB71E69BE630039EAEC /* RegisterView.swift in Sources */,
+				6391DFB51E69BDB40039EAEC /* LoginView.swift in Sources */,
+				6391DFB91E69BEED0039EAEC /* IntroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +386,7 @@
 		};
 		6391DFA81E6985500039EAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972A1229D2FA0A2DCCDC3D96 /* Pods-LOLChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5V273URY46;
@@ -272,6 +400,7 @@
 		};
 		6391DFA91E6985500039EAEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2275A23763147764D96D2BA4 /* Pods-LOLChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5V273URY46;
@@ -302,6 +431,7 @@
 				6391DFA91E6985500039EAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
